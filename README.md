@@ -1,4 +1,4 @@
-# BagUp
+# Bagup
  ### Bagup é a ressignificação do resgate de milhas no Clube Smiles 🛩️
 
 >"A partir de agora a viagem não é mais uma etapa, ela é toda a jornada!" Equipe Bagup.
