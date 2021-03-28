@@ -1,0 +1,460 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+html{
+	font-family: 'Nunito', sans-serif;	
+}
+
+.clear{
+	clear: both;
+}
+.div0{
+	width: 100%;
+	background-color: #FF5A00;
+	height:12vh;
+	position: relative;
+}
+
+.div1{
+	width: 50%;
+	height: 12vh;
+	float: left;
+}
+
+h5{
+	
+	margin-left: 8px;
+	color: white;
+}
+
+.voltar{
+	margin-left: 128px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.div2{
+	width: 50%;
+	height: 12vh;
+	float: right;
+}
+
+
+.logo{
+	width: 110px;
+	height: 50px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin:0 128px; 
+	float: right;
+}
+
+.logo svg{
+	position: absolute;
+  	left: 0;
+  	right: 10px;
+  	top: 0;
+  	bottom: 0;
+  	margin: auto;
+  	max-width: 100%;
+  	max-height: 100%;
+}
+
+.container{
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+}
+
+.Menu{
+	height: 88vh;
+	width: 15%;
+	background-color: #66615C;
+	float: left;
+}
+
+.conteudoPrincipal{
+	width: 58%;
+	height: 88vh;
+	background-color: #FFFFFF;
+	float: left;
+	padding-top: 16px;
+	overflow-y: scroll;
+	position: relative;	
+}
+
+::-webkit-scrollbar{
+	width: 0px;
+}
+
+
+
+.perfil{
+	width: 27%;
+	height: 88vh;
+	background-color: #EFEFEF;
+	float: left;
+}
+.logobagup{
+	width: 135px;
+	margin-left: 55px;
+	margin-top: 46px;
+}
+.itensMenu{
+	margin-top: 45px;
+}
+
+.itensMenu nav li{
+	position: relative;
+	margin: 0;
+	padding:0; 
+	list-style: none;
+	transition: 1s;
+}
+
+.itensMenu nav li:hover{
+	background-color: #FF7B33;
+}
+
+.itensMenu nav li a{
+	display: block;
+	text-decoration: none;
+	padding: 22px;
+	align-items: center;
+}
+.itensMenu nav li a img{
+	margin-left: 90px;
+}
+
+.itensMenu nav li:first-child{
+	background-color: #FF7B33;
+}
+
+.element1{
+	
+	position: relative;
+	margin: 0 64px;
+}
+
+#search{
+	height: 20px;
+	width: 500px;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.form{
+	width: 589px;
+	border: 1px solid #A3A3A3;
+	border-radius: 5px;
+	height: 34px;
+	
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.form input{
+	
+	margin-top: -5px;
+}
+
+.form button{
+	background-color: #FFF;
+	border: none;
+	margin-top: 3px;
+	height: 30px;
+	cursor: pointer;
+	-webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.form button:hover{
+	-webkit-transform: scale(0.9);
+   transform: scale(0.9);
+}
+
+ input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+
+.notificacao{
+	width: 34px;
+	height: 34px;
+	float: right;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	cursor: pointer;
+	-webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+	
+}
+
+
+
+.notificacao:hover{
+-webkit-transform: scale(0.9);
+   transform: scale(0.9);	
+}
+
+
+.texto h2{
+	text-align: center;
+	margin-top: 64px;
+	color: #494949;
+	font-weight: 600;
+	font-size: 32px;
+}
+
+.texto p{
+	text-align: center;
+	margin-top: 16px;
+	color: #494949;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.img{
+	position: absolute;
+	right: 77px;
+	top: 107px;
+}
+
+.img1{
+	position: absolute;
+	right: 32px;
+	top: 506px;
+
+}
+.img2{
+	position: absolute;
+	left: 16px;
+	top: 600px;
+
+}
+
+.fotos{
+	position: relative;
+	margin: 32px auto;
+	height: 177px;
+	width:612px;
+}
+
+.foto1{
+	width: 290px;
+	height:  177px;
+	float: left;
+	border-radius: 9px;
+}
+.foto2{
+	width: 290px;
+	height:  177px;
+	float: right;
+	border-radius: 9px;
+}
+
+.texto2{
+	margin-left: 32px;
+	margin-top: 0px;
+}
+
+.texto2 h1{
+	margin-top: 0;
+	color: #FF5A00;
+	font-weight: 900;
+	font-size: 36px;
+	letter-spacing: 7.5%;
+	line-height: 149.4%;
+
+}
+
+.locais{
+	margin: 32px auto;
+	
+	width: 628px;
+	height: 181px;
+
+	position: relative;
+
+
+}
+.local1{
+	width: 133px;
+	height: 177px;
+	background-color: orange;
+	border-radius: 9px;
+	margin-right: 32px;
+	float: left;
+	cursor: pointer;
+}
+
+.local1 img{
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.local1 img:hover{
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.penultimo{
+	margin-right: 28px;
+}
+
+.ultimo{
+	margin-right: 0;
+	border: 2px solid black;
+	background-color: white;
+	-webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.ultimo:hover{
+-webkit-transform: scale(1.1);
+   transform: scale(1.1);	
+}
+
+.rodape{
+	width: 100%;
+	background-color: #FF5A00;
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	position: relative;
+	padding-top: 10px;
+}
+.rodape p{
+	
+}
+
+
+.ultimo img{
+	position:relative;
+	left:50%;
+	top:50%;
+	margin-left:-16px;
+	margin-top:-16px;
+}
+
+.textoPerfil{
+	margin-top: 32px;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 13px;
+	color: #FF5A00;
+	font-weight: 400;
+
+}
+
+.fotoperfil{
+	width: 100px;
+	margin: 16px auto;
+	height: 100px;
+	border-radius: 70px;
+}
+
+.textoperfil2{
+	text-align: center;
+}
+
+.textoperfil2 p{
+	font-weight: 400;
+	font-size: 14px;
+	color: #A3A3A3;
+	margin: 4px;
+}
+.textoperfil2 h3{
+	font-weight: 600;
+	font-size: 32px;
+	color: #4D4A47;
+	margin: 0;
+}
+
+.conter{
+	margin: 16px auto;
+	width: 172px;
+	height: 60px;
+
+	position: relative;
+}
+
+.imagemmilha{
+	width: 42px;
+	height: 42px;
+	
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: left;
+}
+
+.milhas{
+	width: 129px;
+	height: 49px;
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: right;
+}
+
+.milhas h2{
+	color: #FF7B33;
+	margin: 0;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.conter2{
+	margin: 16px auto;
+	width: 254px;
+	height: 27px;
+	position: relative;
+}
+
+.gasto{
+	width: 50%;
+	height: 27px;
+	color: white;
+	background-color: #FF7B33;
+	border-radius: 3px;
+	float: left;
+	cursor: pointer;
+	transition: 1s;
+}
+.ganho{
+	width: 50%;
+	cursor: pointer;
+	height: 27px;
+	color: #A3A3A3;
+	background-color: #E2E2E2;
+	border-radius: 3px;
+	float: right;
+	transition: 1s;
+}
+
+.ganho:hover{
+	background-color: #FFC880; 
+}
+.gasto:hover{
+	background-color: #FFC880; 
+}
+.conter2 p{
+		margin: 0;
+		font-size: 14px;
+		text-align: center;
+		position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
